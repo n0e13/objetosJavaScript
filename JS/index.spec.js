@@ -81,7 +81,7 @@ describe("Pair Programming", () => {
                 expect(Portatil.modelo).toBe("P345");
             });
             it("10.- Dado un 'objeto' de nombre 'Concierto' añade el valor 'Guns N' Roses' a la propiedad 'cartelera'", () => {
-                expect(Concierto.cartelera).toEqual(["Queen", "Guns N' Roses"]);
+                expect(Concierto.cartelera).toEqual("Guns N' Roses");
             });
             it("11.- Dado un 'objeto' de nombre 'Concierto' modifica el valor de la propiedad 'fecha' por el valor new Date()", () => {
                 expect(Concierto.fecha).toEqual(jasmine.any(Date));
